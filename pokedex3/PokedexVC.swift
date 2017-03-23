@@ -29,7 +29,7 @@ class PokedexVC: UIViewController, UICollectionViewDelegate, UICollectionViewDat
         searchBar.returnKeyType = UIReturnKeyType.done
         
         parsePokemonCSV()
-        //initAudio()
+        initAudio()
     }
     
     func initAudio() {
